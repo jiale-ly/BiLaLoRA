@@ -18,7 +18,7 @@
 <div>
     <h4 align="center">
         <a href="https://arxiv.org/abs/2504.05590" target='_blank'>[arXiv]</a> •
-        <a href="https://pan.baidu.com/s/1hINu3suhWb3wWVfUWoWlnQ?pwd=0519" target='_blank'>[Weight]</a> •
+        <a href="https://pan.baidu.com/s/1hINu3suhWb3wWVfUWoWlnQ?pwd=0519" target='_blank'>[Weight]</a>
     </h4>
 </div>
 
