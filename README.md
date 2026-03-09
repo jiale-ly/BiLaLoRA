@@ -31,7 +31,7 @@
 
 ## :mag: Performance Comparison
 
-<img src="fig/FirstFigure.png" alt="Model" style="zoom:80%;" />
+<img src="fig/FirstFigure.jpg" alt="Model" style="zoom:80%;" />
 
 ## :pencil2: Results
 
