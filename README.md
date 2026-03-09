@@ -35,7 +35,9 @@
 
 ## :pencil2: Results
 
-<img src="fig/results.jpg" alt="Results" style="zoom:80%;" />
+<img src="fig/Comparisons1.jpg" alt="Results" style="zoom:80%;" />
+<img src="fig/Comparisons2.jpg" alt="Results" style="zoom:80%;" />
+<img src="fig/Comparisons3.jpg" alt="Results" style="zoom:80%;" />
 
 ## :desktop_computer: Environment
 
