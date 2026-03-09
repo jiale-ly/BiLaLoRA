@@ -12,7 +12,7 @@
 </div>
 
 <div>
-    :star: <strong>Accepted to CVPR 2025
+    :star: <strong>Accepted to CVPR 2026
 </div>
 
 <div>
