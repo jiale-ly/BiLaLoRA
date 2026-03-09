@@ -19,15 +19,14 @@
     <h4 align="center">
         <a href="https://arxiv.org/abs/2504.05590" target='_blank'>[arXiv]</a> •
         <a href="https://pan.baidu.com/s/1hINu3suhWb3wWVfUWoWlnQ?pwd=0519" target='_blank'>[Weight]</a> •
-        <a href="http://coa.realdehaze.top" target='_blank'>[Demo]</a> 
     </h4>
 </div>
 
 </div>
 
 ## :mega: Updates
-- **2023.03.03**: :fire::fire::fire: Training codes, and initial checkpoints are publicly available now.
-- **2025.02.27**: :tada::tada::tada: Accepted by ***CVPR 2025***.
+- **2023.03.09**: :fire::fire::fire: Training codes, and initial checkpoints are publicly available now.
+- **2025.02.21**: :tada::tada::tada: Accepted by ***CVPR 2025***.
 
 
 ## :mag: Method
