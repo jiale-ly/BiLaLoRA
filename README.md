@@ -65,22 +65,11 @@ dataset/
 ├── HAZE4K
 │   ├── test
 │   |   ├── clear
-│   |   │   ├── 1.png
-│   |   │   └── 2.png
-│   |   │   └── ...
 │   |   └── hazy
-│   |       ├── 1_0.89_1.56.png
-│   |       └── 2_0.93_1.66.png
-│   |       └── ...
 │   └── train
 │       ├── clear
-│       │   ├── 1.png
-│       │   └── 2.png
-│       │   └── ...
 │       └── hazy
-│           ├── 1_0.68_0.66.png
-│           └── 2_0.59_1.95.png
-│           └── ...
+
 ├── REAL_FOGGY
 │   ├── 1.png
 │   └── 2.png
@@ -93,10 +82,6 @@ The datasets can be downloaded at
 + [HAZE4K](https://pan.baidu.com/s/19stkJ3aaF8WgHK2FBytnZA?pwd=0411)
 + [RIDCP](https://github.com/RQ-Wu/RIDCP_dehazing)
 + [REAL_FOGGY](https://pan.baidu.com/s/1GS9qkwcBcKB411pdSwFcDg?pwd=0519)
-
-## :train: Pre-trained Haze Prompt Pairs Training
-
-In our experiment, we randomly select 4000 haze images from URHI training dataset and 2000 clear images from RESIDE-Outdoor testing dataset as the unpaired training data. We provide the training data we use at [[BaiduPan](https://pan.baidu.com/s/1G8yiq6CWRzVHEZKhu-SD7A?pwd=0314)] for your reference. For the specific training code, please refer to [CLIP-LIT](https://github.com/ZhexinLiang/CLIP-LIT.git).
 
 
 ## :hotsprings: Model Training
