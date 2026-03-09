@@ -62,15 +62,14 @@ Step 2. Make sure the file structure is consistent with the following:
 
 ```
 dataset/
-├── HAZE4K
+├── Synthetic_Data
 │   ├── test
 │   |   ├── clear
 │   |   └── hazy
 │   └── train
 │       ├── clear
 │       └── hazy
-
-├── REAL_FOGGY
+├── Real_Data
 │   ├── 1.png
 │   └── 2.png
 │   └── 3.png
@@ -78,10 +77,10 @@ dataset/
 ```
 
 The datasets can be downloaded at
-+ [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)
-+ [HAZE4K](https://pan.baidu.com/s/19stkJ3aaF8WgHK2FBytnZA?pwd=0411)
++ [Reside](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)
++ [Haze4K](https://pan.baidu.com/s/19stkJ3aaF8WgHK2FBytnZA?pwd=0411)
 + [RIDCP](https://github.com/RQ-Wu/RIDCP_dehazing)
-+ [REAL_FOGGY](https://pan.baidu.com/s/1GS9qkwcBcKB411pdSwFcDg?pwd=0519)
++ [Real_Data](https://pan.baidu.com/s/1GS9qkwcBcKB411pdSwFcDg?pwd=0519)
 
 
 ## :hotsprings: Model Training
