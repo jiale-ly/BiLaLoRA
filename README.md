@@ -59,6 +59,7 @@ pip install -r requirements.txt
 ##  :book: Data Preparation
 
 Step 1. Download the haze dataset from websites or papers.
+
 Step 2. Make sure the file structure is consistent with the following:
 
 ```
