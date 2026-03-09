@@ -25,13 +25,13 @@
 </div>
 
 ## :mega: Updates
-- **2023.03.09**: :fire::fire::fire: Training codes, and initial checkpoints are publicly available now.
-- **2025.02.21**: :tada::tada::tada: Accepted by ***CVPR 2025***.
+- **2026.03.09**: :fire::fire::fire: Training codes, and initial checkpoints are publicly available now.
+- **2026.02.21**: :tada::tada::tada: Accepted by ***CVPR 2025***.
 
 
-## :mag: Method
+## :mag: Performance Comparison
 
-<img src="fig/Model.png" alt="Model" style="zoom:80%;" />
+<img src="fig/FirstFigure.png" alt="Model" style="zoom:80%;" />
 
 ## :pencil2: Results
 
@@ -91,6 +91,7 @@ dataset/
 The datasets can be downloaded at
 + [RESIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)
 + [HAZE4K](https://pan.baidu.com/s/19stkJ3aaF8WgHK2FBytnZA?pwd=0411)
++ [RIDCP](https://github.com/RQ-Wu/RIDCP_dehazing)
 + [REAL_FOGGY](https://pan.baidu.com/s/1GS9qkwcBcKB411pdSwFcDg?pwd=0519)
 
 ## :train: Pre-trained Haze Prompt Pairs Training
@@ -134,16 +135,10 @@ model/
 │   └── EMA_r.pth
 ```
 
-Step 3. Run the following script to test CoA:
+Step 3. Run the following script to test BiLaLoRA:
 ```
 python Eval.py
 ```
-
-## :clipboard: Acknowledgments
-We would like to extend our gratitude to the following implementations for their contributions to the development of CoA:
-
-- [CLIP-LIT](https://github.com/ZhexinLiang/CLIP-LIT.git) for providing the methodology for training pre-trained prompt pairs.
-- [DEA-Net](https://github.com/cecret3350/DEA-Net.git) for providing the re-parameterization technique.
 
 ## :triangular_flag_on_post: Citation
 If you find our paper and repo are helpful for your research, please consider citing:
