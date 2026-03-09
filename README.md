@@ -89,11 +89,8 @@ Step 1. Download the pre-trained model weight from [[BaiduPan](https://pan.baidu
 
 Step 2. Make sure the file structure is consistent with the following:
 ```
-model/
-└── imagenet_model
-    └── res2net101_v1b_26w_4s-0812c246.pth
+
 clip_model/
-├── haze_prompt.pth
 ├── RN101.pt
 └── ViT-B-32.pt
 ```
@@ -129,11 +126,12 @@ python Eval.py
 If you find our paper and repo are helpful for your research, please consider citing:
 
 ```bibtex
-@inproceedings{ma2025coa,
- author={Long Ma, Yuxin Feng, Yan Zhang, Jinyuan Liu, Weimin Wang, Guangyong Chen, Chengpei Xu, Zhuo Su},
- booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
- title={CoA: Towards Real Image Dehazing via Compression-and-Adaptation},
- year={2025}
+@inproceedings{zhang2026BiLaLoRA,
+  title={Bilevel Layer-Positioning LoRA for Real Image Dehazing},
+ author={Yan Zhang, Long Ma, Yuxin Feng, Zhe Huang, Fan Zhou, Zhuo Su},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={1-10},
+  year={2026}
 }
 ```
 
