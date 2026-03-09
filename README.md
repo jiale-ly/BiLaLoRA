@@ -128,7 +128,7 @@ If you find our paper and repo are helpful for your research, please consider ci
 ```bibtex
 @inproceedings{zhang2026BiLaLoRA,
   title={Bilevel Layer-Positioning LoRA for Real Image Dehazing},
- author={Yan Zhang, Long Ma, Yuxin Feng, Zhe Huang, Fan Zhou, Zhuo Su},
+  author={Yan Zhang, Long Ma, Yuxin Feng, Zhe Huang, Fan Zhou, Zhuo Su},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={1-10},
   year={2026}
