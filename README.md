@@ -1,15 +1,13 @@
 <div align="center">
 
-<h1>CoA: Towards Real Image Dehazing via Compression-and-Adaptation</h1>
+<h1>Bilevel Layer-Positioning LoRA for Real Image Dehazing</h1>
 
 <div>
+    Yan Zhang</a>&emsp;
     Long Ma</a>&emsp;
     Yuxin Feng</a>&emsp;
-    Yan Zhang</a>&emsp;
-    Jinyuan Liu</a>&emsp;
-    Weimin Wang</a>&emsp;
-    Guangyong Chen</a>&emsp;
-    Chengpei Xu</a>&emsp;
+    Zhe Huang</a>&emsp;
+    Fan Zhou</a>&emsp;
     Zhuo Su</a>
 </div>
 
