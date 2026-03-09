@@ -43,15 +43,15 @@
 Step 1. Clone this repo:
 
 ```
-git clone https://github.com/YanZhang-zy/CoA.git
-cd CoA/
+git clone https://github.com/YanZhang-zy/BiLaLoRA.git
+cd BiLaLoRA/
 ```
 
 Step 2. Create a new conda environment and install dependencies:
 
 ```
-conda create -n CoA python=3.10
-conda activate CoA
+conda create -n BiLaLoRA python=3.10
+conda activate BiLaLoRA
 conda install pytorch==2.2.0 torchvision==0.17.0 torchaudio==2.2.0 pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install -r requirements.txt
 ```
