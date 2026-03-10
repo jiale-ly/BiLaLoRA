@@ -108,7 +108,7 @@ Step 2. Make sure the file structure is consistent with the following:
 ```
 weight/
 ├── Base.pth
-├── LoRA.pth
+└── LoRA.pth
 ```
 
 Step 3. Run the following script to test BiLaLoRA:
