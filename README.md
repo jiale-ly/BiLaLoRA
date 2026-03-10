@@ -17,7 +17,7 @@
 
 <div>
     <h4 align="center">
-        <a href="https://drive.google.com/drive/folders/1qEmYEONhX8e0b7PLikKxMCKNu_j7pu6b?usp=sharing" target='_blank'>[Weight]</a>
+        <a href="https://drive.google.com/drive/folders/1qEmYEONhX8e0b7PLikKxMCKNu_j7pu6b?usp=sharing" target='_blank'>[GoogleDrive Weight]</a>
     </h4>
 </div>
 
