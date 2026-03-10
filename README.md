@@ -17,7 +17,7 @@
 
 <div>
     <h4 align="center">
-        <a href="https://pan.baidu.com/s/1hINu3suhWb3wWVfUWoWlnQ?pwd=0519" target='_blank'>[Weight]</a>
+        <a href="https://pan.baidu.com/s/1zXtVtfZwUm8v8AxMhIUZWQ?pwd=0519" target='_blank'>[Weight]</a>
     </h4>
 </div>
 
@@ -84,7 +84,7 @@ The datasets can be downloaded at
 
 
 ## :hotsprings: Model Training
-Step 1. Download the pre-trained model weight from [[BaiduPan](https://pan.baidu.com/s/1hINu3suhWb3wWVfUWoWlnQ?pwd=0519)].
+Step 1. Download the clip model weight from [[BaiduPan](https://pan.baidu.com/s/1wrGspYjjIH3sC7yuQUfMjg?pwd=0519)].
 
 Step 2. Make sure the file structure is consistent with the following:
 ```
@@ -95,29 +95,25 @@ clip_model/
 
 Step 3. Run the following script to train BiLaLoRA from scratch:
 ```
-python Teacher.py
-python KD.py
-python EMA.py
+python Base_Train.py
+python Reparam.py
+python BiLaLoRA_Train.py
+python BiLaLoRA_Eval.py
 ```
 
 ## :taxi: Model Testing
-Step 1. Download the pre-trained model weights from [[BaiduPan](https://pan.baidu.com/s/16WZ8FcMiY4JrkwxFy2yTLA?pwd=0214)].
+Step 1. Download the pre-trained weights from [[BaiduPan](https://pan.baidu.com/s/19wIc2s1O_o1F4YMchF_7sg?pwd=0519)].
 
 Step 2. Make sure the file structure is consistent with the following:
 ```
-model/
-├── Teacher_model
-│   └── Teacher.pth
-├── Student_model
-│   └── Student.pth
-├── EMA_model
-│   ├── EMA.pth
-│   └── EMA_r.pth
+weight/
+├── Base.pth
+├── LoRA.pth
 ```
 
 Step 3. Run the following script to test BiLaLoRA:
 ```
-python Eval.py
+python BiLaLoRA_Test.py
 ```
 
 ## :triangular_flag_on_post: Citation
