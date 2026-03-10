@@ -24,7 +24,7 @@
 </div>
 
 ## :mega: Updates
-- **2026.03.09**: :fire::fire::fire: Training codes, and initial checkpoints are publicly available now.
+- **2026.03.10**: :fire::fire::fire: Training codes, and initial checkpoints are publicly available now.
 - **2026.02.21**: :tada::tada::tada: Accepted by ***CVPR 2026***.
 
 
