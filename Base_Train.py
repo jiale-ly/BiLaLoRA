@@ -154,15 +154,39 @@ def set_seed_torch(seed=2018):
     torch.backends.cudnn.deterministic = True
 
 
+def resolve_data_dir(candidates, required_subdirs):
+    for candidate in candidates:
+        if os.path.isdir(candidate) and all(os.path.isdir(os.path.join(candidate, s)) for s in required_subdirs):
+            return candidate
+    raise FileNotFoundError(
+        f"Cannot find dataset directory. Tried: {candidates}. Required subfolders: {required_subdirs}"
+    )
+
+
 if __name__ == "__main__":
     set_seed_torch(3407)
 
     model = DEANet().to(opt.device)
 
-    train_dir_1 = '/dataset/Haze4K/train'
+    project_root = os.path.dirname(os.path.abspath(__file__))
+
+    train_dir_1 = resolve_data_dir(
+        [
+            os.path.join(project_root, 'dataset', 'Haze4K', 'train'),
+            os.path.join(project_root, 'dataset', 'Synthetic_Data', 'train'),
+        ],
+        required_subdirs=('hazy', 'clear')
+    )
     train_set_1 = RESIDE_Dataset(train_dir_1, True, 256, '.png')
 
-    test_dir = '/dataset/Haze4K/val'
+    test_dir = resolve_data_dir(
+        [
+            os.path.join(project_root, 'dataset', 'Haze4K', 'val'),
+            os.path.join(project_root, 'dataset', 'Haze4K', 'test'),
+            os.path.join(project_root, 'dataset', 'Synthetic_Data', 'test'),
+        ],
+        required_subdirs=('hazy', 'clear')
+    )
     test_set = TestDataset(os.path.join(test_dir, 'hazy'), os.path.join(test_dir, 'clear'), '.png')
 
     loader_train = DataLoader(dataset=train_set_1, batch_size=16, shuffle=True, num_workers=8)

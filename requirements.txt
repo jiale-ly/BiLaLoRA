@@ -1,0 +1,18 @@
+# 0402自定义的 requirements.txt 文件，包含了项目所需的所有依赖库和版本信息。
+--extra-index-url https://download.pytorch.org/whl/cu128
+einops
+ftfy
+ipython
+numpy
+opencv_contrib_python==4.7.0.72
+pandas
+Pillow
+PyYAML
+regex
+
+torch
+torchvision
+tqdm
+
+
+# pip install openai-clip

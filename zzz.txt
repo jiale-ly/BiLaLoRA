@@ -1,0 +1,13 @@
+
+
+conda activate BiLaLoRA
+
+nvidia-smi
+
+
+
+Real_Data---500fog
+
+
+
+训练需要添加数据集，修改BiLaLoRA_Train.py中的数据路径：

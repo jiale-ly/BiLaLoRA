@@ -17,9 +17,11 @@ GENERATE_LORA_MODEL = True
 BASE_MODEL_PATH = 'weight/Base.pth'
 LORA_CHECKPOINT_PATH = 'weight/LoRA.pth'
 
-INPUT_FOLDER = './test_data'
-OUTPUT_FOLDER_BASE = './outputs/BiLaLoRA/base/test'
-OUTPUT_FOLDER_LORA = './outputs/BiLaLoRA/lora/test'
+INPUT_FOLDER = './test_data/500_foggy'
+OUTPUT_FOLDER_BASE = './output/500_foggy/base'
+OUTPUT_FOLDER_LORA = './output/500_foggy/lora'
+# OUTPUT_FOLDER_BASE = './outputs/BiLaLoRA/base/test'
+# OUTPUT_FOLDER_LORA = './outputs/BiLaLoRA/lora/test'
 
 
 class LoRALayer(nn.Module):

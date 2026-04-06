@@ -928,7 +928,8 @@ if __name__ == "__main__":
     print("Loading backbone model...")
     model = Backbonecs().to(opt.device)
     model.load_state_dict(
-        torch.load('experiment/DEA/Base/saved_model/best_s.pth')
+        # torch.load('experiment/DEA/Base/saved_model/best_s.pth')
+        torch.load('D:\Projects\BiLaLoRA\weight\Base.pth')
     )
 
     print("Freezing all backbone parameters...")
@@ -960,8 +961,8 @@ if __name__ == "__main__":
 
 
     print("Preparing data loaders...")
-    train_dir_1 = '/dataset/Real'
-    test_dir = '/dataset/Haze4K/val'
+    train_dir_1 = 'D:\Projects\BiLaLoRA\dataset\Real'
+    test_dir = 'D:\Projects\BiLaLoRA\dataset\Haze4K\test'
 
     full_set = CLIP_loader(train_dir_1, True, 224)
     total_size = len(full_set)
